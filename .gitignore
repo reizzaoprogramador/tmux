@@ -20,4 +20,6 @@ rad.json
 *.bclicense
 *.flf
 #Test results file
-TestResults.xml
+TestResults.xmlplugins/
+# Ignora apenas o controle git interno dentro dos plugins, mantendo os arquivos dos plugins rastreáveis - principalmente pro meu gitall() ignorar o .git do plugins/
+plugins/*/.git/
